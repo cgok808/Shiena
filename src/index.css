@@ -1,13 +1,34 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
 }
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+section {
+  margin-left: 230px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.shiena__logo {
+  border-radius: 50%;
+  margin: 20px;
+  width: 100px;
+  border: 2px solid #dca69c;
+}
+
