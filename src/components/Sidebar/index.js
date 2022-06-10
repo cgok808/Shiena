@@ -3,18 +3,57 @@ import {
   SidebarContainer,
   SidebarLinks,
   SidebarLink,
+  SidebarLinkWords,
+  Bar,
+  BarContainer,
 } from "./SidebarElements";
-import ShienaLogo from "../../assets/images/unnamed.jpg";
+import {
+  FaSuitcase,
+  FaHome,
+  FaMusic,
+  FaVolumeUp,
+  FaMicrophone,
+  FaImages,
+  FaStar,
+  FaCommentAlt,
+} from "react-icons/fa";
 
 const Sidebar = () => {
   return (
     <SidebarContainer>
-        <img src={ShienaLogo} alt='' className='shiena__logo' />
+      <h1>AHR</h1>
+      <BarContainer>
+        <Bar />
+      </BarContainer>
       <SidebarLinks>
-        <SidebarLink to="/">home</SidebarLink>
-        <SidebarLink to='/'>home</SidebarLink>
-        <SidebarLink to='/'>home</SidebarLink>
-        <SidebarLink to='/'>home</SidebarLink>
+        <SidebarLink to='/'>
+          <FaSuitcase />
+          <SidebarLinkWords>home</SidebarLinkWords>
+        </SidebarLink>
+        <SidebarLink to='/'>
+          <FaHome />
+          <SidebarLinkWords>services</SidebarLinkWords>
+        </SidebarLink>
+        <SidebarLink to='/'>
+          <FaVolumeUp />
+          <SidebarLinkWords>demos</SidebarLinkWords>
+        </SidebarLink>
+        <SidebarLink to='/'>
+          <FaMicrophone />
+          <SidebarLinkWords>studio</SidebarLinkWords>
+        </SidebarLink>
+        <SidebarLink to='/'>
+          <FaImages />
+          <SidebarLinkWords>roles</SidebarLinkWords>
+        </SidebarLink>
+        <SidebarLink to='/'>
+          <FaStar />
+          <SidebarLinkWords>reviews</SidebarLinkWords>
+        </SidebarLink>
+        <SidebarLink to='/'>
+          <FaCommentAlt />
+          <SidebarLinkWords>contact</SidebarLinkWords>
+        </SidebarLink>
       </SidebarLinks>
     </SidebarContainer>
   );
