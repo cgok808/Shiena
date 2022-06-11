@@ -44,7 +44,6 @@ export const SidebarContainer = styled.nav`
 export const BarContainer = styled.div`
   height: 12px;
   width: 100px;
-  border: 0.5px solid #dca69c;
   border-radius: 2px;
   margin: 10px 0 20px 0;
   background-color: #dca69c;
@@ -57,15 +56,15 @@ export const BarContainer = styled.div`
 `;
 
 export const Bar = styled.div`
-  /* width: 50%;
-  height: 10px;
+  width: 50%;
+  height: 12px;
   border-radius: 2px;
   background-color: #242025;
-  border: 0.5px solid #dca69c;
+  border: 3px solid #dca69c;
 
   @media ${device.laptop} {
     display: none;
-  } */
+  }
 `;
 
 export const SidebarLinks = styled.div`
