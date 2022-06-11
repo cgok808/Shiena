@@ -72,6 +72,10 @@ export const ServicesCard = styled.div`
     margin-top: 20px;
     width: 440px;
   }
+
+  @media ${device.tablet} {
+    width: 300px;
+  }
 `;
 
 export const ServicesCardTitle = styled.h1`
