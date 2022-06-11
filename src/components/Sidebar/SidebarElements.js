@@ -35,10 +35,10 @@ export const SidebarContainer = styled.nav`
       font-size: 30px;
     }
   }
-
-  /* @media ${device.laptop} {
+  
+  @media ${device.tablet} {
     display: none;
-  } */
+  }
 `;
 
 export const BarContainer = styled.div`

@@ -31,6 +31,12 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  section {
+    margin: 0;
+  }
+}
+
 /** SCROLLBAR **/
 
   * {
