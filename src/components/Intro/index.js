@@ -4,7 +4,7 @@ import { IntroBio, IntroBioWrapper, IntroButton, IntroButtonWrapper, IntroSectio
 
 const Intro = () => {
   return (
-    <IntroSection>
+    <IntroSection id="home">
       <IntroBioWrapper>
         <IntroBio>
           I am

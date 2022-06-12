@@ -4,7 +4,7 @@ import { StudioSection } from "./StudioElements";
 
 const Studio = () => {
   return (
-    <StudioSection>
+    <StudioSection id="studio">
       <SubHeading
         title='studio'
         subtitle='THE SPECS'

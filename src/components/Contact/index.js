@@ -10,7 +10,7 @@ import {
 
 const Contact = () => {
   return (
-    <ContactSection>
+    <ContactSection id='contact'>
       <SubHeading title='contact' subtitle="LET'S TALK" color='#FDF9EE' />
       <form>
         <Wrapper>
@@ -21,7 +21,13 @@ const Contact = () => {
           <SecondPairInput type='text' placeholder='Subject' />
         </SecondWrapper>
         <SecondWrapper>
-          <textarea name='' id='' cols='30' rows='10' placeholder="Message &#13; &#10;ex. Hello there, I am someone who would love to inquire about commissioning you to have your super hot cool voice be featured in my project!"></textarea>
+          <textarea
+            name=''
+            id=''
+            cols='30'
+            rows='10'
+            placeholder='Message &#13; &#10;ex. Hello there, I am someone who would love to inquire about commissioning you to have your super hot cool voice be featured in my project!'
+          ></textarea>
         </SecondWrapper>
       </form>
     </ContactSection>

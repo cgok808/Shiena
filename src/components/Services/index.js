@@ -16,7 +16,7 @@ import VoiceOverIcon from "../../assets/services/voiceover.png";
 
 const Services = () => {
   return (
-    <ServicesSection>
+    <ServicesSection id="services">
       <SubHeading title='services' subtitle='WHAT I CAN DO' color='#322431' />
       <ServicesCardWrapper>
         <ServicesCard>

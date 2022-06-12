@@ -9,7 +9,7 @@ import {
 
 const Testimonials = () => {
   return (
-    <TestimonialsSection>
+    <TestimonialsSection id="reviews">
       <SubHeading
         title='testimonials'
         subtitle="THEY SAY I'M COOL"

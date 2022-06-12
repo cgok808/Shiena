@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll"
 import { device } from "../breakpoint";
 
 export const SidebarContainer = styled.nav`
@@ -79,7 +79,7 @@ export const SidebarLinks = styled.div`
   }
 `;
 
-export const SidebarLink = styled(NavLink)`
+export const SidebarLink = styled(Link)`
   display: flex;
   font-size: 24px;
   font-weight: 700;
@@ -89,6 +89,7 @@ export const SidebarLink = styled(NavLink)`
   &:hover {
     color: rgb(255, 255, 255);
     transition: all 300ms ease;
+    cursor: pointer;
   }
 `;
 

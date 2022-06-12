@@ -26,31 +26,31 @@ const Sidebar = () => {
         <Bar />
       </BarContainer>
       <SidebarLinks>
-        <SidebarLink to='/'>
+        <SidebarLink to='home' smooth={true} duration={500}>
           <FaSuitcase />
           <SidebarLinkWords>home</SidebarLinkWords>
         </SidebarLink>
-        <SidebarLink to='/'>
+        <SidebarLink to='services' smooth={true} duration={500}>
           <FaHome />
           <SidebarLinkWords>services</SidebarLinkWords>
         </SidebarLink>
-        <SidebarLink to='/'>
+        <SidebarLink to='demos' smooth={true} duration={500}>
           <FaVolumeUp />
           <SidebarLinkWords>demos</SidebarLinkWords>
         </SidebarLink>
-        <SidebarLink to='/'>
+        <SidebarLink to='studio' smooth={true} duration={500}>
           <FaMicrophone />
           <SidebarLinkWords>studio</SidebarLinkWords>
         </SidebarLink>
-        <SidebarLink to='/'>
+        <SidebarLink to='roles' smooth={true} duration={500}>
           <FaImages />
           <SidebarLinkWords>roles</SidebarLinkWords>
         </SidebarLink>
-        <SidebarLink to='/'>
+        <SidebarLink to='reviews' smooth={true} duration={500}>
           <FaStar />
           <SidebarLinkWords>reviews</SidebarLinkWords>
         </SidebarLink>
-        <SidebarLink to='/'>
+        <SidebarLink to='contact' smooth={true} duration={500}>
           <FaCommentAlt />
           <SidebarLinkWords>contact</SidebarLinkWords>
         </SidebarLink>

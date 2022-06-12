@@ -4,7 +4,7 @@ import { FeaturedSection } from "./FeaturedElements";
 
 const Featured = () => {
   return (
-    <FeaturedSection>
+    <FeaturedSection id="roles">
       <SubHeading title='featured roles' subtitle='THE SPECS' color='#513947' />
     </FeaturedSection>
   );
