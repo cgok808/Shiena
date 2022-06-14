@@ -27,11 +27,11 @@ const Sidebar = () => {
       </BarContainer>
       <SidebarLinks>
         <SidebarLink to='home' smooth={true} duration={500}>
-          <FaSuitcase />
+          <FaHome />
           <SidebarLinkWords>home</SidebarLinkWords>
         </SidebarLink>
         <SidebarLink to='services' smooth={true} duration={500}>
-          <FaHome />
+          <FaSuitcase />
           <SidebarLinkWords>services</SidebarLinkWords>
         </SidebarLink>
         <SidebarLink to='demos' smooth={true} duration={500}>

@@ -23,6 +23,7 @@ section {
   margin-left: 230px;
   /* Same as the width of the sidebar */
   padding: 0px 10px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1024px){
